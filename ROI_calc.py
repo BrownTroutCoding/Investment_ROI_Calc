@@ -16,7 +16,7 @@ class Calculator():
         prop_income = int(input("\nTo get started, enter your monthly property income: "))
         laundry = int(input("What did you make on laundry machines? "))
         storage = int(input("What did you make on storage? "))
-        misc_income = int(input("Do you have any Misc profit (i.e. vending machines)? "))
+        misc_income = int(input("What are your Misc profits (i.e. vending machines)? "))
 
         # Total monthly property income
         monthly_income = prop_income + laundry + storage + misc_income
